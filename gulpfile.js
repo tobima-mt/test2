@@ -15,7 +15,7 @@ gulp.task('build', async function() {
   console.log('start building');
     gulp
     .src(buildFiles)
-    .pipe(replace(/(import *\{[^\}]*\} *from )'\.\.\/(\.\.\/)?/g, `$1'${repo}\/`))
+    .pipe(replace(/(import *\{[^\}]*\} *from )'\.\.\/(\.\.\/(components\/|utils\/)?)?/g, `$1'${repo}\/`))
     .pipe(gulp.dest('./dist'));
     console.log('done  building');
   });

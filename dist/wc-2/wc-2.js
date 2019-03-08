@@ -1,6 +1,6 @@
 import {html, PolymerElement} from '@polymer/polymer/polymer-element.js';
 import {} from '@tobima-test/wc-1/wc-1';
-import {sayHello} from '@tobima-test/utils/lib/lib';
+import {sayHello} from '@tobima-test/lib/lib';
 
 /**
  * `wc-1`
