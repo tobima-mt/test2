@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "@tobima-test/wc-2": "^0.0.1"
+    "@tobima-test/wc-2": "^0.0.4"
   },
   "author": "",
   "license": "MIT"
